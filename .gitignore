@@ -1,43 +1,9 @@
-# Maven
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.properties
-mvnw
-mvnw.cmd
-
-# IntelliJ
+# Diretórios comuns do Maven e IDEs
+target/
 .idea/
 *.iml
-*.iws
-*.ipr
-out/
-
-# Eclipse
-.project
-.classpath
-.settings/
-
-# VSCode
-.vscode/
-
-# Logs
 *.log
 
-# OS
+# Sistema operacional
 .DS_Store
 Thumbs.db
-
-# Docker
-*.pid
-*.seed
-docker-compose.override.yml
-
-# Environment
-.env
-.env.*
-
-flyway-schema-history.*
-
-# Build artifacts
-build/
