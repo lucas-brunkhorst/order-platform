@@ -12,8 +12,6 @@ services:
       - "5432:5432"
     volumes:
       - postgres_order_data:/var/lib/postgresql/data
-    networks:
-      - order-network
 
 volumes:
   postgres_order_data:
