@@ -10,6 +10,7 @@
 
     <modules>
         <module>order-service</module>
+        <module>catalog-service</module>
     </modules>
 
     <name>Order Platform</name>
